@@ -1,3 +1,2 @@
-export const PORT = 5555;
-export const mongoDBURL =
-  "mongodb+srv://root:root@inventory-app-mern.uyom6.mongodb.net/inventory?retryWrites=true&w=majority&appName=inventory-app-mern";
+export const PORT = process.env.PORT;
+export const mongoDBURL = process.env.MONGODB_URL;
