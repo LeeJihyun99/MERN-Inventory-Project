@@ -1,9 +1,7 @@
-import express from "express";
 import mongoose from "mongoose";
+import express from "express";
 import productsRoute from "./routes/productsRoute.js";
 import cors from "cors";
-import dotenv from "dotenv";
-dotenv.config();
 import { PORT, mongoDBURL } from "./config.js";
 
 const app = express();
